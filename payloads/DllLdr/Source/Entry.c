@@ -377,10 +377,7 @@ DWORD KHashString( PVOID String, SIZE_T Length )
         else
         {
             if ( (ULONG) ( Ptr - (PUCHAR)String ) >= Length ) break;
-            if ( !*Ptr ) {
-                ++Ptr;
-                continue;
-            }
+            if ( !*Ptr ) ++Ptr;
         }
 
         if ( character >= 'a' )

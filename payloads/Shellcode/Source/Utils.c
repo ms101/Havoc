@@ -17,10 +17,7 @@ SEC( text, B ) UINT_PTR HashString( LPVOID String, UINT_PTR Length )
         else
         {
             if ( (ULONG) ( Ptr - (PUCHAR)String ) >= Length ) break;
-            if ( !*Ptr ) {
-                ++Ptr;
-                continue;
-            }
+            if ( !*Ptr ) ++Ptr;
         }
 
         if ( character >= 'a' )

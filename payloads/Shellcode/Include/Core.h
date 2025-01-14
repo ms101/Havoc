@@ -8,7 +8,7 @@ VOID     KaynLdrReloc( PVOID KaynImage, PVOID ImageBase, PVOID BaseRelocDir, DWO
 
 #define PAGE_SIZE                       4096
 #define MemCopy                         __builtin_memcpy
-#define NTDLL_HASH                      0x1edab0ed
+#define NTDLL_HASH                      0x70e61753
 
 #define SYS_LDRLOADDLL                  0x9e456a43
 #define SYS_NTALLOCATEVIRTUALMEMORY     0xf783b8ec
