@@ -40,6 +40,7 @@ ULONG HashEx(
 
             if ( !*Ptr ) {
                 ++Ptr;
+                continue;
             }
         }
 

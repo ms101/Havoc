@@ -365,7 +365,7 @@
 #define H_COFFAPI_NTSETINFORMATIONVIRTUALMEMORY   0xe7aea539
 #define H_COFFAPI_NTGETNEXTTHREAD                 0x8f8000fe
 
-#define H_MODULE_KERNEL32                         0xadd31df0
-#define H_MODULE_NTDLL                            0x70e61753
+#define H_MODULE_KERNEL32                         0x6ddb9555
+#define H_MODULE_NTDLL                            0x1edab0ed
 
 #endif

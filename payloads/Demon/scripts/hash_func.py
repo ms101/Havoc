@@ -30,5 +30,6 @@ if __name__ in '__main__':
     try:
         print('#define H_FUNC_%s 0x%x' % ( sys.argv[ 1 ].upper(), hash_string( sys.argv[ 1 ] ) ));
         print('#define H_COFFAPI_%s 0x%x' % ( sys.argv[ 1 ].upper(), hash_coffapi( sys.argv[ 1 ] ) ));
+	# modules as module.dll, e.g. ntdll.dll
     except IndexError:
         print('usage: %s [string]' % sys.argv[0]);
